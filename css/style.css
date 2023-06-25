@@ -1,0 +1,39 @@
+body {
+ background-color: #FFF;
+ overflow: hidden;
+ text-align:center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #7e99da, #6497cf, #4f93c1, #2e81a1, #176f80, #105b61, #124845);
+  
+}
+
+body,
+html {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+
+svg {
+ width: 100%;
+ height: 100%;
+ visibility: hidden;
+}
+h1{
+  position:absolute;
+  top:2.3rem;
+  font-size:40px;
+  color:#fff;
+}
+#toggle {
+	cursor: pointer;
+	fill: #2BDB7F;
+	-webkit-tap-highlight-color: transparent;
+}
+
+#robotHand2 {
+	opacity: 0;	 
+}
